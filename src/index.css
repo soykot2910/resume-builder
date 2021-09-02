@@ -1,13 +1,84 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: rgb(241, 241, 241);
+}
+a {
+  text-decoration: none;
+}
+.navbar {
+  padding: 13px 0px;
+  background: #fff;
+}
+.navbar-brand {
+  font-weight: 500;
+  color: rgb(26, 184, 184) !important;
+}
+.nav-link {
+  color: rgb(44, 167, 167) !important;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.nav-link:hover {
+  color: rgb(26, 184, 184) !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #28b5b5;
+}
+
+.btn-custom {
+  background: rgb(26, 184, 184);
+  width: 180px;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 10px 18px;
+  color: white;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.btn-custom:hover {
+  background: rgb(50, 209, 209);
+  color: white;
+}
+
+.procedure {
+  background: linear-gradient(to right, #2f5369, #2ca4cb);
+  color: white;
+  padding: 4rem;
+  position: absolute;
+  width: 100%;
+}
+
+.carousel {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 2rem;
+}
+.carousel-item {
+  margin-bottom: 7rem;
+}
+.svg_icons {
+  transform: scale(4);
+  margin: 3rem;
+}
+@media (max-width: 768px) {
+  .heading {
+    font-size: 2.5rem;
+  }
+  .sub-heading {
+    font-size: 1.2rem;
+  }
+  .carousel {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .heading {
+    font-size: 2.3rem;
+  }
+  .sub-heading {
+    font-size: 1rem;
+  }
 }
